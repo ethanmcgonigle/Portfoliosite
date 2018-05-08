@@ -1,4 +1,4 @@
 # Portfoliosite
 
 - [Portfolio Website]
-(https://ethanmcgonigle.github.io/Portfoliosite/portfoliomock.html)
+(https://ethanmcgonigle.github.io/GitHub/Portfoliosite/portfoliomock.html)
