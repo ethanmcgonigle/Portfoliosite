@@ -1,0 +1,591 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+{
+    @media (max-width: 100%)
+}
+
+/* --- NAV --- */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+a {
+    color: black;
+}
+
+li a {
+    display: block;
+    text-emphasis-color:  15bc25;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid #15bc25;
+    margin-left:  20px;
+    margin-right: 8px;
+    padding-top: 27px;
+}
+
+.navbar{
+  text-align: center;
+}
+.navbar ul{
+  display: inline-flex;
+}
+
+li a:hover {
+    color: #15bc25;
+}
+.active {
+    color: #15bc25;
+}
+
+li{
+    display: inline;
+    float: right;
+    padding-right: 0px;
+}
+
+.monogram{
+    position: absolute;
+    left:2%;
+    padding-top:  16px;
+}
+
+
+/* --- VERTICAL HEIGHT --- */
+
+p{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+#top-section{
+    padding-top: 150px;
+    height:100%;
+    font-size: 85px;
+    text-align: center;
+}
+
+#bottom-section{ 
+    padding-left: 225px;
+    padding-right: 225px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 150px;
+}
+
+.home{
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+/* --- SHOWCASE --- */
+
+.showcase {
+    display:flex;
+    flex-direction: column;
+}
+
+.showcase {
+  max-height: 100%;
+  background-color: #ffffff;
+}
+
+.div1:hover::before{
+    transition: all .5s ease-in;
+    background-color: white;
+    opacity: .5;
+}
+
+.div1::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transition: all .5s ease-out;
+    left: 0;
+}
+
+.div1 {
+    position: relative;
+    box-sizing: border-box;
+  margin: 10px;
+  padding: 180px;
+  border: 3px solid #15bc25;
+  border-radius: px;
+  
+    
+    
+  background-size: cover;
+  height: auto;
+    width: 98.7%;
+    background-position: center;
+    font-family: 'Raleway', sans-serif;
+    color: #15bc25;
+     font-size: 20px;
+ } 
+
+.div2:hover::before{
+    transition: all .5s ease-in;
+    background-color: white;
+    opacity: .5;
+}
+
+.div2::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transition: all .5s ease-out;
+    left: 0;
+}
+
+.div2 {
+    position: relative;
+  box-sizing: border-box;
+      background-color: #ffffff;
+  margin: 10px;
+  padding: 180px;
+  font-size: 20px;
+  text-align: left;
+  border: 3px solid #7d2453;
+  border-radius: px;
+  background-image: url(./images/sagmeisterselfie.png);
+  background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+    color: #7d2453;
+}
+
+.div3:hover::before{
+    transition: all .5s ease-in;
+    background-color: white;
+    opacity: .5;
+}
+
+.div3::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transition: all .5s ease-out;
+    left: 0;
+}
+
+.div3 {  
+  position: relative;
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 180px;
+  text-align: left;
+  border: 3px solid #15bc25;
+  border-radius: px;
+  background-image: url(./images/sketchbook1.png); padding-top: 195px;
+  background-size:auto;
+  height: auto;
+  width: 98.7%;
+  background-position: center;
+    background-repeat: no-repeat;
+     font-family: 'Raleway', sans-serif;
+    color: #15bc25;
+     font-size: 20px;
+}
+
+/*-----SEPERATION-----*/
+
+#seperation{
+    
+    padding:2.5px;
+    position: static;
+    color:#ffffff;
+    background:#000;
+    max-height:0px;
+}
+
+.visualmark {
+    padding-top: 50px;
+    padding-left: 38.5%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*----- FEEL FREE -----*/
+
+.footer{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: inherit;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.social {
+    display: inline;
+    padding-bottom: 15px;
+    padding-left: 48.5%;
+}
+
+.email {
+    padding-top: 15px;
+}
+
+/*----- SEPERATION 2 -----*/
+
+#seperation2{
+    padding:1px;
+    position: static;
+    color:#ffffff;
+    background:#000;
+    max-height:0px;
+        }
+
+/* ----------- grid -----------*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px;
+    padding-bottom: 200px;
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: left;
+}
+
+.grid-item img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+    transition: ease-in-out 0.5s;
+}
+
+
+.travelappbrief {
+    
+        background-color: #17C95A;
+        font-family: 'Raleway', sans-serif;
+        opacity: 0.75;
+        padding-left: 1;
+        
+}
+
+.travelappbrief h2{
+    
+        text-align: left;
+        padding-left: 15px;
+        padding-top: 20px;
+        
+}
+
+.travelappbrief p {
+    
+        padding-top: 30px;
+        text-align: left;
+        font-size: 19px;
+        padding-left: 15px;
+        padding-right: 20px;
+}
+
+.buttonprocess {
+    background-color: #15bc25; 
+    color: #15bc25;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.buttonprocess {
+    
+    background-color: #15bc25; 
+    color: #ffffff; 
+    border-radius: 8px;
+}
+
+.buttonprocess:hover {
+    border: 4px solid #ffffff;
+    color: white;
+}
+
+.buttonprototype {
+    background-color: #15bc25; 
+    color: #15bc25;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.buttonprototype {
+    
+    background-color: #15bc25; 
+    color: #ffffff; 
+    border-radius: 8px;
+}
+
+.buttonprototype:hover {
+    border: 4px solid #ffffff;
+    color: white;
+}
+
+.appbuttons {
+    padding-top: 40px;
+    padding-left: 14px;
+}
+
+.travelbud {
+    padding-left: 7%;
+}
+
+
+.sagmeisterart {
+    padding-left: 11%;
+}
+
+.essaybrief {
+        
+        background-color: #BD5292;
+        font-family: 'Raleway', sans-serif;
+        opacity: 0.85;
+}
+
+.essaybrief h2 {
+       
+      text-align: left;
+      padding-left: 15px;
+      padding-top: 20px;
+}
+
+.buttonstructure {
+    background-color: #BD5292; 
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.buttonstructure {
+    
+    background-color: #BD5292; 
+    color: #ffffff; 
+    border-radius: 8px;
+}
+
+.buttonstructure:hover {
+    border: 4px solid #ffffff;
+    color: white;
+}
+
+.buttonwebsite {
+    background-color: #BD5292; 
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.buttonwebsite {
+    
+    background-color: #BD5292; 
+    color: #ffffff; 
+    border-radius: 8px;
+}
+
+.buttonwebsite:hover {
+    border: 4px solid #ffffff;
+    color: white;
+}
+
+.essaybuttons {
+    padding-top: 40px;
+    padding-left: 14px;
+}
+
+.essaybrief p {
+    
+        padding-top: 30px;
+        text-align: left;
+        font-size: 19px;
+        padding-left: 15px;
+        padding-right: 20px;
+}
+
+
+
+.brandbrief {
+    
+        background-color: #17C95A;
+        font-family: 'Raleway', sans-serif;
+        opacity: 0.75;
+        padding-left: 1
+}
+
+.brand { 
+    
+        font-family: 'Raleway', sans-serif;
+        opacity: 0.75;
+        padding-left: 60px;
+    
+    }
+
+.brandbrief h2 {
+    
+        text-align: left;
+        padding-left: 15px;
+        padding-top: 20px;
+}
+
+.brandbrief p {
+    
+        padding-top: 30px;
+        text-align: left;
+        font-size: 19px;
+        padding-left: 15px;
+        padding-right: 20px;
+}
+
+.buttonrepresentation {
+    background-color: #15bc25; 
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.buttonrepresentation {
+    
+    background-color: #15bc25; 
+    color: #ffffff; 
+    border-radius: 8px;
+}
+
+.buttonrepresentation:hover {
+    border: 4px solid #ffffff;
+    color: white;
+}
+
+.buttonguidelines {
+    background-color: #15bc25; 
+    color: #15bc25;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.buttonguidelines {
+    
+    background-color: #15bc25; 
+    color: #ffffff; 
+    border-radius: 8px;
+}
+
+.buttonguidelines:hover {
+    border: 4px solid #ffffff;
+    color: white;
+}
+
+.brandbuttons {
+    padding-top: 40px;
+    padding-left: 14px;
+}
+
+    
+.infographic {
+    padding-left: 9%;
+}
+
+.infographicbrief {
+        
+        background-color: #D22009;
+        font-family: 'Raleway', sans-serif;
+        opacity: 0.8;
+    
+}
+
+.infographicbrief h2{
+    
+        padding-left: 15px;
+        padding-top: 20px;
+}
+
+.infographicbrief p {
+    
+        padding-top: 30px;
+        text-align: left;
+        font-size: 19px;
+        padding-left: 15px;
+        padding-right: 20px;
+}
+
+.buttoninfographic {
+    background-color: #D22009; 
+    color: #15bc25;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.buttoninfographic {
+    
+    background-color: #D22009; 
+    color: #ffffff; 
+    border-radius: 8px;
+}
+
+.buttoninfographic:hover {
+    border: 4px solid #ffffff;
+    color: white;
+}
+
+.infographicbuttons {
+    padding-top: 40px;
+    padding-left: 14px;
+}
